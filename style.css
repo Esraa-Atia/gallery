@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: #222;
+    text-align: center;
+}
+.gallery {
+    padding: 3rem;
+}
+.gallery .gallery-title {
+    padding: 2rem;
+    color: #ffffff;
+}
+.gallery-menu .gallery-menu-list {
+    padding: 30px 0px;
+}
+.gallery-menu .gallery-menu-list .gallery-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-menu .gallery-menu-list .gallery-sub .buttons{
+    text-decoration: none;
+    padding: 8px 22px;
+    margin: 10px 26px;
+    background-color: teal;
+    color: #fff;
+    border-radius: 18px;
+}
+.gallery .gallery-parent-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    transition: .3s ease-in-out;
+}
+.gallery .gallery-parent-box .store-item{
+    margin: 15px;
+}
+.gallery .gallery-parent-box .store-item img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.gallery .gallery-parent-box .store-item .title{
+    text-align: left;
+    padding: 10px 0;
+}
+.gallery .gallery-parent-box .store-item .title h4{
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: teal;
+}
+.gallery .gallery-parent-box .store-item .title .text-secondary a{
+    text-decoration: none;
+    color: purple;
+}
